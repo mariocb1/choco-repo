@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>Git</id>
+    <version>2.52.0</version> 
+    <owners>Mario CB</owners>
+    
+    <title>Git for Windows (Versión 2.52.0)</title>
+    <authors>The Git Development Community</authors>
+    <projectUrl>https://git-scm.com/</projectUrl>
+    <tags>git scm version-control</tags>
+    <summary>Instalador personalizado de Git para Windows v2.52.0.</summary>
+    <description>Paquete privado de Chocolatey que contiene el instalador offline de Git para Windows v2.52.0 (64-bit). Se instala en modo supersilencioso y crea un acceso directo a Git Bash en el escritorio.</description>
+    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
