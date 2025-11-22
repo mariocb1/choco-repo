@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>firefox</id>
+    <version>130.0</version> 
+    <owners>Teacher Mario</owners>
+    <title>Mozilla Firefox (Custom)</title>
+    <authors>Mozilla</authors>
+    <projectUrl>https://www.mozilla.org/firefox/</projectUrl>
+    <tags>firefox browser mozilla</tags>
+    <summary>Instalador personalizado de Mozilla Firefox v130.0.</summary>
+    <description>Paquete privado que instala la versión 130.0 de Firefox en modo silencioso y crea un acceso directo en el escritorio.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
